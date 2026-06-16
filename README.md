@@ -221,38 +221,4 @@ an API/database call; everything downstream is unaffected.
 
 ---
 
-## 7. Loom Demo Script (1–2 min)
 
-> **[0:00–0:15] Hook + framing**
-> "This is a multi-agent regulatory intelligence system for global banking compliance —
-> think Basel III capital requirements across US, EU, and UK regulators. It's built
-> the way a financial institution would actually need it: deterministic, schema-validated,
-> and fully audit-logged."
-
-> **[0:15–0:45] Architecture walkthrough**
-> "Six agents run in a fixed sequence — Ingestion, Normalization, Validation,
-> Contradiction Detection, Confidence Scoring, and Report Generation. [Show the
-> folder structure.] Each agent has a single responsibility, so you can swap, say,
-> the ingestion source for a live regulator API without touching anything else.
-> There's no LLM sampling anywhere in here — every output is a pure function of
-> the input data, which is the whole point for a compliance use case."
-
-> **[0:45–1:15] Live run + output**
-> "Let me run it for the US." [run `python run_demo.py --jurisdiction US`] "You get
-> back strict JSON: key rules, citations back to the source regulator, and — this is
-> the interesting part — contradictions. The system flagged that the US leverage
-> ratio requirement is 40% higher than the EU's equivalent rule. That's exactly the
-> kind of cross-jurisdiction divergence a compliance team needs surfaced automatically."
-
-> **[1:15–1:45] Confidence + audit trail**
-> "Confidence score here is 0.875, and it's fully explainable — it's a weighted
-> combination of source reliability, internal consistency, and cross-validation
-> coverage, not a black box. And every single run gets logged to an audit trail
-> with input/output hashes, so you can prove reproducibility to a regulator or
-> auditor after the fact."
-
-> **[1:45–2:00] Close**
-> "It's production-style: typed errors, schema rejection instead of silent failure,
-> unit tests covering the agents and the full pipeline, and a clean extension point
-> for new jurisdictions or data sources. Happy to walk through any part of the
-> codebase in more depth."
