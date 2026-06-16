@@ -1,0 +1,42 @@
+{
+  "jurisdiction": "US",
+  "regulator": "Federal Reserve / OCC",
+  "topic": "basel_iii_capital_requirements",
+  "source_reliability": 0.95,
+  "source_type": "primary_regulatory_text",
+  "publication_date": "2025-01-10",
+  "rules": [
+    {
+      "rule_key": "cet1_minimum_ratio",
+      "title": "Common Equity Tier 1 Minimum Ratio",
+      "value": 4.5,
+      "unit": "percent",
+      "text": "Banking organizations must maintain a minimum Common Equity Tier 1 capital ratio of 4.5% of risk-weighted assets.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "capital_conservation_buffer",
+      "title": "Capital Conservation Buffer",
+      "value": 2.5,
+      "unit": "percent",
+      "text": "An additional capital conservation buffer of 2.5% is required on top of minimum risk-based capital ratios.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "supplementary_leverage_ratio",
+      "title": "Supplementary Leverage Ratio (GSIBs)",
+      "value": 5.0,
+      "unit": "percent",
+      "text": "Global systemically important banks must maintain a supplementary leverage ratio of at least 5.0%, inclusive of a 2.0% buffer.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "liquidity_coverage_ratio",
+      "title": "Liquidity Coverage Ratio",
+      "value": 100.0,
+      "unit": "percent",
+      "text": "Covered banking organizations must maintain high-quality liquid assets sufficient to meet net cash outflows over a 30-day stress period, expressed as a minimum LCR of 100%.",
+      "effective_date": "2025-01-01"
+    }
+  ]
+}

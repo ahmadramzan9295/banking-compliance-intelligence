@@ -1,0 +1,21 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local logs and output
+banking-compliance-intelligence/logs/
+*.log
+
+# Environments
+.env
+.venv
+venv/
+env/
+ActiveState.venv/
+
+# Editor/IDE configurations
+.vscode/
+.idea/

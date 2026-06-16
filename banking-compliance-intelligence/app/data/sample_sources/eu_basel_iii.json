@@ -1,0 +1,50 @@
+{
+  "jurisdiction": "EU",
+  "regulator": "European Banking Authority (EBA) / CRR",
+  "topic": "basel_iii_capital_requirements",
+  "source_reliability": 0.93,
+  "source_type": "primary_regulatory_text",
+  "publication_date": "2025-02-01",
+  "rules": [
+    {
+      "rule_key": "cet1_minimum_ratio",
+      "title": "Common Equity Tier 1 Minimum Ratio",
+      "value": 4.5,
+      "unit": "percent",
+      "text": "Institutions shall maintain a Common Equity Tier 1 capital ratio of at least 4.5% of total risk exposure amount.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "capital_conservation_buffer",
+      "title": "Capital Conservation Buffer",
+      "value": 2.5,
+      "unit": "percent",
+      "text": "A capital conservation buffer of Common Equity Tier 1 capital equal to 2.5% of total risk exposure amount is required.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "supplementary_leverage_ratio",
+      "title": "Leverage Ratio Requirement",
+      "value": 3.0,
+      "unit": "percent",
+      "text": "Institutions shall maintain a leverage ratio of at least 3.0%, with G-SIIs subject to an additional leverage ratio buffer.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "liquidity_coverage_ratio",
+      "title": "Liquidity Coverage Ratio",
+      "value": 100.0,
+      "unit": "percent",
+      "text": "Credit institutions shall hold liquid assets to cover net liquidity outflows under stressed conditions over 30 days, with a minimum LCR of 100%.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "osii_buffer",
+      "title": "Other Systemically Important Institutions Buffer",
+      "value": 2.0,
+      "unit": "percent",
+      "text": "Competent authorities may require an O-SII buffer of up to 2.0% of total risk exposure amount for systemically important institutions.",
+      "effective_date": "2025-01-01"
+    }
+  ]
+}

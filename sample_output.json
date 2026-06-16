@@ -1,0 +1,79 @@
+{
+  "jurisdiction": "US",
+  "regulation_topic": "basel_iii_capital_requirements",
+  "summary": "US maintains 4 core requirement(s) under basel iii capital requirements. 2 cross-jurisdiction divergence(s) were identified (2 high, 0 medium, 0 low severity), detailed in 'contradictions'.",
+  "key_rules": [
+    {
+      "rule_key": "cet1_minimum_ratio",
+      "title": "Common Equity Tier 1 Minimum Ratio",
+      "value": 4.5,
+      "unit": "percent",
+      "description": "Banking organizations must maintain a minimum Common Equity Tier 1 capital ratio of 4.5% of risk-weighted assets."
+    },
+    {
+      "rule_key": "capital_conservation_buffer",
+      "title": "Capital Conservation Buffer",
+      "value": 2.5,
+      "unit": "percent",
+      "description": "An additional capital conservation buffer of 2.5% is required on top of minimum risk-based capital ratios."
+    },
+    {
+      "rule_key": "supplementary_leverage_ratio",
+      "title": "Supplementary Leverage Ratio (GSIBs)",
+      "value": 5.0,
+      "unit": "percent",
+      "description": "Global systemically important banks must maintain a supplementary leverage ratio of at least 5.0%, inclusive of a 2.0% buffer."
+    },
+    {
+      "rule_key": "liquidity_coverage_ratio",
+      "title": "Liquidity Coverage Ratio",
+      "value": 100.0,
+      "unit": "percent",
+      "description": "Covered banking organizations must maintain high-quality liquid assets sufficient to meet net cash outflows over a 30-day stress period, expressed as a minimum LCR of 100%."
+    }
+  ],
+  "contradictions": [
+    {
+      "rule_key": "supplementary_leverage_ratio",
+      "jurisdiction_a": "US",
+      "value_a": 5.0,
+      "jurisdiction_b": "EU",
+      "value_b": 3.0,
+      "severity": "high",
+      "description": "US requires 5.0% for 'Supplementary Leverage Ratio (GSIBs)', while EU requires 3.0% for the equivalent rule ('Leverage Ratio Requirement') \u2014 a 40.0% relative divergence."
+    },
+    {
+      "rule_key": "supplementary_leverage_ratio",
+      "jurisdiction_a": "US",
+      "value_a": 5.0,
+      "jurisdiction_b": "UK",
+      "value_b": 3.25,
+      "severity": "high",
+      "description": "US requires 5.0% for 'Supplementary Leverage Ratio (GSIBs)', while UK requires 3.25% for the equivalent rule ('UK Leverage Ratio') \u2014 a 35.0% relative divergence."
+    }
+  ],
+  "confidence_score": 0.875,
+  "citations": [
+    {
+      "source": "US regulatory source",
+      "regulator": "Federal Reserve / OCC",
+      "publication_date": "2025-01-10",
+      "reliability": 0.95
+    },
+    {
+      "source": "EU regulatory source",
+      "regulator": "European Banking Authority (EBA) / CRR",
+      "publication_date": "2025-02-01",
+      "reliability": 0.93
+    },
+    {
+      "source": "UK regulatory source",
+      "regulator": "Prudential Regulation Authority (PRA)",
+      "publication_date": "2025-01-20",
+      "reliability": 0.91
+    }
+  ],
+  "version": "1.0.0",
+  "timestamp": "2026-06-16T08:44:46.031507+00:00",
+  "audit_log_id": "AUD-6c057195-6c65-4212-b05d-7d0c3e460922"
+}

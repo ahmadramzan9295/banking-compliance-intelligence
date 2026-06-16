@@ -1,0 +1,42 @@
+{
+  "jurisdiction": "UK",
+  "regulator": "Prudential Regulation Authority (PRA)",
+  "topic": "basel_iii_capital_requirements",
+  "source_reliability": 0.91,
+  "source_type": "primary_regulatory_text",
+  "publication_date": "2025-01-20",
+  "rules": [
+    {
+      "rule_key": "cet1_minimum_ratio",
+      "title": "Common Equity Tier 1 Minimum Ratio",
+      "value": 4.5,
+      "unit": "percent",
+      "text": "Firms must maintain a minimum Common Equity Tier 1 ratio of 4.5% of risk-weighted assets.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "capital_conservation_buffer",
+      "title": "Capital Conservation Buffer",
+      "value": 2.5,
+      "unit": "percent",
+      "text": "Firms must maintain a capital conservation buffer of 2.5% in addition to minimum capital requirements.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "supplementary_leverage_ratio",
+      "title": "UK Leverage Ratio",
+      "value": 3.25,
+      "unit": "percent",
+      "text": "Firms subject to the UK leverage ratio framework must maintain a minimum leverage ratio of 3.25%, calculated on an exposure measure that excludes qualifying central bank claims.",
+      "effective_date": "2025-01-01"
+    },
+    {
+      "rule_key": "liquidity_coverage_ratio",
+      "title": "Liquidity Coverage Ratio",
+      "value": 100.0,
+      "unit": "percent",
+      "text": "Firms must hold sufficient high-quality liquid assets to meet net outflows under a 30-day liquidity stress scenario, with a minimum LCR of 100%.",
+      "effective_date": "2025-01-01"
+    }
+  ]
+}
